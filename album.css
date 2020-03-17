@@ -1,0 +1,138 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+h5{
+  padding-left: 52px;
+  font-size: 20px;
+  text-align: left;
+  margin-left:0px;
+  display: inline;
+ }
+
+.h2type{
+    text-align: center;
+  margin-top: 80px;
+  font-family: Arial, sans-serif;
+  font-size: x-large;
+  
+}
+.para{
+    text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-size: large;
+  font-weight: normal;
+  color: grey;
+}
+
+ footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    color: grey;
+    text-align: justify;
+    margin-top: 75px;
+   margin-inline-start: 40px;
+
+}
+footer a{
+  text-decoration: none;
+}
+.st3{
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+  .st4 p
+    {
+      text-align: justify;
+      margin-inline-start: 40px;
+    }
+
+.thumbnail {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 2px 2px 7px grey;
+    font-family: sans-serif;
+    margin-block-start: 20px;
+  margin-inline-start: 20px;
+  }
+    
+.thumbnail img {
+    width: 100%;
+   margin-left: 0px;
+  
+}
+
+  .thumbnail p {
+    padding: 10px 10px;
+    background: white;
+    font-size: 14px;
+    text-align: justify;
+    color: rgb(37, 36, 36);
+ 
+  }
+  .btn-container {
+    margin: 0 0 20px 20px;
+    display: inline-block;
+      }
+
+  .btn-container button {
+    background: white;
+    outline: none;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    margin-top: 25px;
+  }
+  
+  .edit {
+    margin-left: -8px;  
+}
+.time {
+    display: inline-block;
+    font-size: 10px;
+    color: #808080;
+    float: right;
+    margin-right: 25px;
+    margin-top: 35px;
+  }
+ 
+  .navbar {
+    width: 100%;
+    background-color: rgb(56, 54, 54);
+    overflow: auto;
+   padding: 10px 10px 10px 10px;
+
+  }
+   .navbar img
+   {
+    background-color: rgb(51, 49, 49);
+    margin-inline-start: 50px;   
+    font-weight: lighter; 
+    }
+.dualbutton {
+  margin: 0 0 20px 500px;
+  display: inline-block;
+  background: white;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 15px 32px;
+  cursor: pointer;
+  height: 50px;
+}
+
+.icon{
+  display: inline;
+  margin-left: 50px 10px 50px 50px;
+  float: right;
+  padding-right:100px 200px;
+  position: static;
+
+}
+.icon:hover{
+  background-color: blue;
+}
+
