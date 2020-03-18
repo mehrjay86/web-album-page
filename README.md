@@ -1,1 +1,1 @@
-# web-album-page
+# web-album-page and yaml file
