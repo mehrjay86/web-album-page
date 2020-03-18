@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: albumsite
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-album
+  template:
+    metadata:
+      labels: 
+        app: web-album
+        environment: dev
+    spec:
+       containers:
+        - name: album
+          image: mehrjay86/album
+          ports:
+            - containerPort: 8080
